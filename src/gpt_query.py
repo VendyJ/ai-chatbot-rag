@@ -1,5 +1,5 @@
 from langchain_openai import ChatOpenAI
-from vector_store import search_vector_store
+from src.vector_store import search_vector_store
 
 def answer_query(query: str, store, k: int = 3) -> str:
     # Najdi relevantní chunky

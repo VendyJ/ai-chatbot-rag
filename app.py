@@ -1,8 +1,11 @@
 import streamlit as st
+from dotenv import load_dotenv
 from src.pdf_loader import extract_text_from_pdf
 from src.text_splitter import split_text
 from src.vector_store import create_vector_store
 from src.gpt_query import answer_query
+
+load_dotenv()
 
 st.title("AI Chatbot s dokumenty")
 
