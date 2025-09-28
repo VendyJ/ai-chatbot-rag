@@ -5,6 +5,12 @@ Uživatel nahraje PDF dokument a chatbot odpovídá na otázky na základě jeho
 
 ---
 
+# Pro koho je projekt určený
+
+Tento projekt je vhodný jako ukázka práce s moderními AI technologiemi (LangChain, OpenAI, FAISS) a integrace do jednoduchého webového rozhraní.
+Uživatel nahraje dokument (PDF), chatbot dokument přečte a umožní klást dotazy k jeho obsahu.
+Projekt tak ukazuje praktické použití Retrieval-Augmented Generation (RAG) — vyhledávání v dokumentech s pomocí AI.
+
 # Funkcionalita
 
 - Načtení textu z PDF
@@ -16,7 +22,7 @@ Uživatel nahraje PDF dokument a chatbot odpovídá na otázky na základě jeho
 
 # Ukázka
 
-![Ukázka aplikace](screenshot.png)
+![Ukázka aplikace](screenshot.jpg)
 
 # Jak spustit
 
