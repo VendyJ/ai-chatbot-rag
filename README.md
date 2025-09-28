@@ -47,7 +47,7 @@ Uživatel nahraje PDF dokument a chatbot odpovídá na otázky na základě jeho
 
    Spusť aplikaci v prohlížeči:
 
-   streamlit run src/app.py
+   streamlit run app.py
 
 # Struktura projektu
 
